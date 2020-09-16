@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+import djangoinheroku.main.views as view #Marcando a view utilizada
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', view.index, name="home")
 ]

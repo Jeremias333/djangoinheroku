@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "djangoinheroku.main", #Marcando que o app pode ser utilizado
 ]
 
 MIDDLEWARE = [
